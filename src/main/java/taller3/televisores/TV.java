@@ -6,7 +6,7 @@ public class TV{
 	private int precio = 500;
 	boolean estado;
 	int volumen = 1;
-	Control control;
+	Control control = null;
 	static int numTV = 0;
 	
 	public TV(Marca marca, boolean estado){
@@ -33,7 +33,7 @@ public class TV{
 	}
 	
 	public Control getControl() {
-		return this.control;
+		return control;
 	}
 	public void setControl(Control control) {
 		this.control = control;
