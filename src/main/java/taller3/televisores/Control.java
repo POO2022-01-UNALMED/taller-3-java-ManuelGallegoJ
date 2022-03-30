@@ -5,7 +5,7 @@ public class Control {
 
 	public void enlazar(TV tv) {
 		this.setTV(tv);
-		tv.setControl(null);
+		tv.setControl(tv.control);
 	}
 	public void turnOff() {
 		tv.estado = false;
