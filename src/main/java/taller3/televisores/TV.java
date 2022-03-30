@@ -33,7 +33,7 @@ public class TV{
 	}
 	
 	public Control getControl() {
-		return control;
+		return this.control;
 	}
 	public void setControl(Control control) {
 		this.control = control;
